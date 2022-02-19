@@ -10,9 +10,9 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <img className="w-1/4 min-w-[350px]" src="./toad-punks.png"/>
+        <img className="w-1/4 min-w-[325px]" src="./toad-punks.png"/>
         
-        <div className='items-start w-1/4 min-w-[350px] text-left'>
+        <div className='items-start w-1/4 min-w-[325px] text-left'>
           <br/><br/>
           <h1 className="text-3xl font-bold text-larva-pink">
             CrypToad Punks
