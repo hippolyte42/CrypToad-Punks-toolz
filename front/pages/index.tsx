@@ -12,7 +12,7 @@ const Home: NextPage = () => {
 
         <meta property="twitter:title" content="crypToad Punks" />
         <meta property='twitter:description' content='6969 CrypToad Punks on the Ethereum blockchain. No roadmap. Just !vibes. CC0 public domain project.'/>
-        <meta property="twitter:image" content="https://i.imgur.com/CUx4oyz.png" />
+        <meta property="twitter:image" content="https://i.imgur.com/HOcnj27.pngg" />
         <meta property="twitter:image:alt" content="6969 CrypToad Punks on the Ethereum blockchain. No roadmap. Just !vibes. CC0 public domain project." />
 
         <meta property='twitter:site' content='@cryptoadpunks'/>
