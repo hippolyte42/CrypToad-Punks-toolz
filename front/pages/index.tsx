@@ -7,6 +7,18 @@ const Home: NextPage = () => {
       <Head>
         <title>CrypToad Punks</title>
         <link rel="icon" href="/favicon.ico" />
+
+        <meta property='twitter:card' content='summary'/>
+
+        <meta property="twitter:title" content="crypToad Punks" />
+        <meta property='twitter:description' content='6969 CrypToad Punks on the Ethereum blockchain. No roadmap. Just !vibes. CC0 public domain project.'/>
+        <meta property="twitter:image" content="https://imgur.com/gallery/LslDVsu" />
+        <meta property="twitter:image:alt" content="6969 CrypToad Punks on the Ethereum blockchain. No roadmap. Just !vibes. CC0 public domain project." />
+
+        <meta property='twitter:site' content='@cryptoadpunks'/>
+        <meta property='twitter:site:id' content='1491380727006433282'/>
+        <meta property='twitter:creator' content='@buyhighHippo'/>
+        <meta property='twitter:creator:id' content='1431037191279493123'/>
       </Head>
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
