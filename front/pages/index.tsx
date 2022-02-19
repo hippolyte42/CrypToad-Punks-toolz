@@ -22,15 +22,15 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <img className="w-1/4 min-w-[325px]" src="./toad-punks.png"/>
+        <img className="w-1/2 min-w-[325px]" src="./toad-punks.png"/>
         
-        <div className='items-start w-1/4 min-w-[325px] text-left'>
+        <div className='items-start w-1/2 min-w-[325px] text-left'>
           <br/><br/>
           <h1 className="text-3xl font-bold text-larva-pink">
             CrypToad Punks
           </h1>
           <br/>
-          <div className="mt-6 flex max-w-4xl flex-wrap justify-around sm:w-full mb-6 text-base">
+          <div className="mt-6 flex max-w-4xl flex-wrap sm:w-full mb-6 text-base">
             <div className='items-start mb-12 w-full'>
               <a
                 href="https://opensea.io/collection/cryptoadpunks"
@@ -64,16 +64,14 @@ const Home: NextPage = () => {
               >GitHub</a>
             </div>
             {/* OpenSea ∙ LooksRare ∙ Etherscan ∙ Twitter ∙ Discord */}
-            <p className="mb-1 text-base">
+            <p className="mb-6 text-base">
               6969 CrypToad Punks on the Ethereum blockchain. No roadmap. Just !vibes. CC0 public domain project.
             </p>
-            <br/>
-            <p className="mb-6 text-base">80% of mint proceeds (total of 69eth) was donated to the <a
+            <p className="text-base ">80% of mint proceeds (total of 69eth) was donated to the <a
                 href="https://www.cryptoadz.io/"
                 className="underline mb-6 text-base"
                 target={"_blank"}
               >CrypToadz</a> treasury.</p>
-
           </div>
         </div>
       </main>
