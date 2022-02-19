@@ -48,7 +48,7 @@ const Home: NextPage = () => {
             </div>
             {/* OpenSea ∙ LooksRare ∙ Etherscan ∙ Twitter ∙ Discord */}
             <p className="mb-1 text-base">
-            6969 Toad Punks on the Ethereum blockchain. No roadmap. Just !vibes. CC0 public domain project.
+              6969 CrypToad Punks on the Ethereum blockchain. No roadmap. Just !vibes. CC0 public domain project.
             </p>
             <br/>
             <p className="mb-6 text-base">80% of mint proceeds (total of 69eth) was donated to the <a
