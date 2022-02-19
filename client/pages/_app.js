@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import '../input.css';
 
 export default function Home() {
   return (
@@ -9,6 +10,8 @@ export default function Home() {
       </Head>
 
       <main>
+      <img src="/toad-punks-2.png" className='w-1 top-10'/>
+
         <h1 className="title">
           CrypToad Punks
         </h1>
