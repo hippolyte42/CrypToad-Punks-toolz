@@ -56,7 +56,12 @@ const Home: NextPage = () => {
                 href="https://discord.gg/cryptoadpunks"
                 className="underline text-base"
                 target={"_blank"}
-              >Discord</a>
+              >Discord</a>{' '}∙{' '}
+              <a
+                href="https://github.com/buyhighHippo/CrypToad-Punks-toolz"
+                className="underline text-base"
+                target={"_blank"}
+              >GitHub</a>
             </div>
             {/* OpenSea ∙ LooksRare ∙ Etherscan ∙ Twitter ∙ Discord */}
             <p className="mb-1 text-base">
