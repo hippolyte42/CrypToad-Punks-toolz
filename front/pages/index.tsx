@@ -26,7 +26,7 @@ const Home: NextPage = () => {
         
         <div className='items-start w-1/2 min-w-[325px] text-left'>
           <br/><br/>
-          <h1 className="text-6xl font-bold text-larva-pink mb-9">
+          <h1 className="text-4xl md:text-6xl font-bold text-larva-pink mb-9">
             CrypToad Punks
           </h1>
           <br/>
