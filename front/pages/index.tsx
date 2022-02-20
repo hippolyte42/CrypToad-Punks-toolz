@@ -8,7 +8,7 @@ const Home: NextPage = () => {
         <title>CrypToad Punks</title>
         <link rel="icon" href="/favicon.ico" />
 
-        <meta property='twitter:card' content='summary'/>
+        <meta property='twitter:card' content='summary_large_image'/>
 
         <meta property="twitter:title" content="crypToad Punks" />
         <meta property='twitter:description' content='6969 CrypToad Punks on the Ethereum blockchain. No roadmap. Just !vibes. CC0 public domain project.'/>
