@@ -6,8 +6,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-      'larva-pink': '#FF04B4',
+        'larva-pink': '#FF04B4',
       },
+    },
+    fontFamily: {
+      sans: ['Montserrat', 'sans-serif'],
+      heading: ['Montserrat', 'sans-serif'],
     },
   },
   plugins: [],
