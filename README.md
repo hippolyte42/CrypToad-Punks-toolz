@@ -39,4 +39,5 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 ## Running the project
     
     $ cd front/
-    $ npm run dev
+    $ npm i         // install dependencies
+    $ npm run dev   // run front client
