@@ -81,7 +81,7 @@ const Home: NextPage = () => {
                   <img className='mb-6 border-black border-solid border-4 rounded' src='/duneDashboard.png'/>
                 </a>
                 <h6 className='text-xl font-bold text-larva-pink mb-1'>tool title</h6>
-                <span className=''>coucou je suis un lorem pour un outils</span>
+                <span className=''>Lorem ipsum dolor sit amet. Et obcaecati Quis aut nihil omnis est ratione dolores sit neque consectetur nam explicabo inventore! Qui maiores dolorem nihil accusantium sed magnam amet.</span>
               </div>
               
               <div className='p-12' >
@@ -89,7 +89,7 @@ const Home: NextPage = () => {
                   <img className='mb-6 border-black border-solid border-4 rounded' src='/duneDashboard.png'/>
                 </a>
                 <h6 className='text-xl font-bold text-larva-pink mb-1'>tool title</h6>
-                <span className=''>coucou je suis un lorem pour un outils</span>
+                <span className=''>Lorem ipsum dolor sit amet. Et obcaecati Quis aut nihil omnis est ratione dolores sit neque consectetur nam explicabo inventore! Qui maiores dolorem nihil accusantium sed magnam amet.</span>
               </div>
               
               <div className='p-12'>
@@ -97,7 +97,7 @@ const Home: NextPage = () => {
                   <img className='mb-6 border-black border-solid border-4 rounded' src='/duneDashboard.png'/>
                 </a>
                 <h6 className='text-xl font-bold text-larva-pink mb-1'>tool title</h6>
-                <span className=''>coucou je suis un lorem pour un outils</span>
+                <span className=''>Lorem ipsum dolor sit amet. Et obcaecati Quis aut nihil omnis est ratione dolores sit neque consectetur nam explicabo inventore! Qui maiores dolorem nihil accusantium sed magnam amet.</span>
               </div>
             </div>
       </main>
