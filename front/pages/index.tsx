@@ -75,31 +75,52 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className='justify-evenly md:flex'>
-              <div className='p-12'>
-                <a  href='https://dune.xyz/rantum/NFT-Collection-Dashboard?contract_address=x4f9835dbb442b263bbd20ff2731162101d9c3a89' target={"_blank"}>
-                  <img className='mb-6 border-black border-solid border-4 rounded' src='/duneDashboard.png'/>
-                </a>
-                <h6 className='text-xl font-bold text-larva-pink mb-1'>tool title</h6>
-                <span className=''>Lorem ipsum dolor sit amet. Et obcaecati Quis aut nihil omnis est ratione dolores sit neque consectetur nam explicabo inventore! Qui maiores dolorem nihil accusantium sed magnam amet.</span>
-              </div>
-              
-              <div className='p-12' >
-                <a href='https://dune.xyz/rantum/NFT-Collection-Dashboard?contract_address=x4f9835dbb442b263bbd20ff2731162101d9c3a89' target={"_blank"}>
-                  <img className='mb-6 border-black border-solid border-4 rounded' src='/duneDashboard.png'/>
-                </a>
-                <h6 className='text-xl font-bold text-larva-pink mb-1'>tool title</h6>
-                <span className=''>Lorem ipsum dolor sit amet. Et obcaecati Quis aut nihil omnis est ratione dolores sit neque consectetur nam explicabo inventore! Qui maiores dolorem nihil accusantium sed magnam amet.</span>
-              </div>
-              
-              <div className='p-12'>
-                <a  href='https://dune.xyz/rantum/NFT-Collection-Dashboard?contract_address=x4f9835dbb442b263bbd20ff2731162101d9c3a89' target={"_blank"}>
-                  <img className='mb-6 border-black border-solid border-4 rounded' src='/duneDashboard.png'/>
-                </a>
-                <h6 className='text-xl font-bold text-larva-pink mb-1'>tool title</h6>
-                <span className=''>Lorem ipsum dolor sit amet. Et obcaecati Quis aut nihil omnis est ratione dolores sit neque consectetur nam explicabo inventore! Qui maiores dolorem nihil accusantium sed magnam amet.</span>
-              </div>
+        <div className="grid lg:grid-cols-4">
+            <div className="max-w-xs mx-4 mb-2 rounded-lg">
+                <img className="w-full h-48"
+                    src="/duneDashboard.png"
+                    alt="" />
+                <div className="px-6 py-4">
+                    <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">This is the title</h4>
+                    <p className="leading-normal text-gray-700">Lorem ipsum dolor, sit amet cons ectetur adipis icing
+                        elit.
+                        Praesen tium, quibusdam facere quo laborum maiores sequi nam tenetur laud.</p>
+                </div>
             </div>
+            <div className="max-w-xs mx-4 mb-2 rounded-lg">
+                <img className="w-full h-48"
+                    src="/raritySniper.png"
+                    alt="" />
+                <div className="px-6 py-4">
+                    <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">This is the title</h4>
+                    <p className="leading-normal text-gray-700">Lorem ipsum dolor, sit amet cons ectetur adipis icing
+                        elit.
+                        Praesen tium, quibusdam facere quo laborum maiores sequi nam tenetur laud.</p>
+                </div>
+            </div>
+            <div className="max-w-xs mx-4 mb-2 rounded-lg">
+                <img className="w-full h-48"
+                    src="/raritySniper.png"
+                    alt="" />
+                <div className="px-6 py-4">
+                    <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">This is the title</h4>
+                    <p className="leading-normal text-gray-700">Lorem ipsum dolor, sit amet cons ectetur adipis icing
+                        elit.
+                        Praesen tium, quibusdam facere quo laborum maiores sequi nam tenetur laud.</p>
+                </div>
+            </div>
+            <div className="max-w-xs mx-4 mb-2 rounded-lg">
+                <img className="w-full h-48"
+                    src="/raritySniper.png"
+                    alt="" />
+                <div className="px-6 py-4">
+                    <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">This is the title</h4>
+                    <p className="leading-normal text-gray-700">Lorem ipsum dolor, sit amet cons ectetur adipis icing
+                        elit.
+                        Praesen tium, quibusdam facere quo laborum maiores sequi nam tenetur laud.</p>
+                </div>
+            </div>
+        </div>
       </main>
     </div>
   )
