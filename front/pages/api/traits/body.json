@@ -1,0 +1,41 @@
+[{
+    "fileId": "alien",
+    "name": "alien"
+  },
+  {
+    "fileId": "ape",
+    "name": "ape"
+  },
+  {
+    "fileId": "bones",
+    "name": "bones"
+  },
+  {
+    "fileId": "bot",
+    "name": "bot"
+  },
+  {
+    "fileId": "skin-1",
+    "name": "skin-1"
+  },
+  {
+    "fileId": "skin-2",
+    "name": "skin-2"
+  },
+  {
+    "fileId": "skin-3",
+    "name": "skin-3"
+  },
+  {
+    "fileId": "skin-4",
+    "name": "skin-4"
+  },
+  {
+    "fileId": "toad",
+    "name": "toad"
+  },
+  {
+    "fileId": "zombie",
+    "name": "zombie"
+  }
+]
