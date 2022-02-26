@@ -25,7 +25,7 @@ const Home: NextPage = () => {
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
         <img className="w-1/2 min-w-[325px] mb-9 mt-12" src="./toad-punks.png"/>
         
-        <div className='items-start w-1/2 min-w-[325px] text-left mb-48'>
+        <div className='items-start w-1/2 min-w-[325px] text-left mb-16'>
           <br/><br/>
           <h1 className="text-4xl md:text-6xl font-bold text-larva-pink mb-9">
             CrypToad Punks
@@ -75,6 +75,9 @@ const Home: NextPage = () => {
               >CrypToadz</a> treasury.</p>
           </div>
         </div>
+        <h1 className="text-2xl md:text-3xl mb-9">
+            Make your Toad Punk
+        </h1>
         <Buildz/>
       </main>
     </div>
