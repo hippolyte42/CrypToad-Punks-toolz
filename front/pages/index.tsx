@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Buildz from '../components/Buildz/Buildz'
 
 const Home: NextPage = () => {
   return (
@@ -22,9 +23,9 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <img className="w-1/2 min-w-[325px] mb-9" src="./toad-punks.png"/>
+        <img className="w-1/2 min-w-[325px] mb-9 mt-12" src="./toad-punks.png"/>
         
-        <div className='items-start w-1/2 min-w-[325px] text-left'>
+        <div className='items-start w-1/2 min-w-[325px] text-left mb-48'>
           <br/><br/>
           <h1 className="text-4xl md:text-6xl font-bold text-larva-pink mb-9">
             CrypToad Punks
@@ -74,6 +75,7 @@ const Home: NextPage = () => {
               >CrypToadz</a> treasury.</p>
           </div>
         </div>
+        <Buildz/>
       </main>
     </div>
   )
