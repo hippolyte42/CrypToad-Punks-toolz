@@ -79,13 +79,13 @@ const Home: NextPage = () => {
         <h1 className="text-xl md:text-3xl font-bold text-larva-pink mb-14 md:mb-20">
             {"Tools & Analytics"}
         </h1>   
-        <div className="grid lg:grid-cols-3 lg:w-3/4">
+        <div className="grid lg:grid-cols-3 lg:w-3/4 place-items-center">
             <div className="max-w-xs mx-6 mb-2 rounded-lg">
                 <a href="https://dune.xyz/rantum/NFT-Collection-Dashboard?contract_address=x4f9835dbb442b263bbd20ff2731162101d9c3a89" target={"_blank"}>
                   <img className="object-cover h-48 w-96 rounded-lg"
                       src="/duneDashboard.png"
                       alt="" />
-                  <div className="px-6 py-4">
+                  <div className="py-2">
                       <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">dune.xyz</h4>
                   </div>
                 </a>
@@ -94,7 +94,7 @@ const Home: NextPage = () => {
               <a href="https://raritysniper.com/cryptoad-punks" target={"_blank"}><img className="object-cover h-48 w-96 rounded-lg"
                     src="/raritySniper.png"
                     alt="" />
-                <div className="px-6 py-4">  
+                <div className="py-2">  
                   <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">raritysniper.com</h4>
                 </div>
               </a>
@@ -104,7 +104,7 @@ const Home: NextPage = () => {
                 <img className="object-cover h-48 w-96 rounded-lg"
                     src="/compass_art.png"
                     alt="" />
-                <div className="px-6 py-4">
+                <div className="py-2">
                   <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">compass.art</h4>
                 </div>
               </a>
