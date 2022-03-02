@@ -19,11 +19,11 @@ const Home: NextPage = () => {
         <meta property='twitter:creator:id' content='1431037191279493123'/>
       </Head>
 
-      <main className="flex w-full flex-1 flex-col items-center px-20 mt-40 mb-24">
+      <main className="flex w-full flex-1 flex-col items-center px-20 mt-10 mb-24">
 
         <img className="w-1/2 min-w-[325px] mb-14 md:mb-20" src="./toad-punks.png"/>
 
-        <div className='items-start w-1/2 min-w-[325px] text-left mb-32'>
+        <div className='items-start w-1/2 min-w-[325px] text-left mb-20'>
           <h1 className="text-4xl md:text-6xl font-bold text-larva-pink mb-14 md:mb-20">
             CrypToad Punks
           </h1>
@@ -75,51 +75,50 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="grid lg:grid-cols-4">
-            <div className="max-w-xs mx-4 mb-2 rounded-lg">
-                <img className="w-full h-48"
-                    src="/duneDashboard.png"
-                    alt="" />
-                <div className="px-6 py-4">
-                    <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">This is the title</h4>
-                    <p className="leading-normal text-gray-700">Lorem ipsum dolor, sit amet cons ectetur adipis icing
-                        elit.
-                        Praesen tium, quibusdam facere quo laborum maiores sequi nam tenetur laud.</p>
-                </div>
+
+        <h1 className="text-xl md:text-3xl font-bold text-larva-pink mb-14 md:mb-20">
+            {"Tools & Analytics"}
+        </h1>   
+        <div className="grid lg:grid-cols-3 lg:w-3/4">
+            <div className="max-w-xs mx-6 mb-2 rounded-lg">
+                <a href="https://dune.xyz/rantum/NFT-Collection-Dashboard?contract_address=x4f9835dbb442b263bbd20ff2731162101d9c3a89" target={"_blank"}>
+                  <img className="object-cover h-48 w-96 rounded-lg"
+                      src="/duneDashboard.png"
+                      alt="" />
+                  <div className="px-6 py-4">
+                      <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">dune.xyz</h4>
+                  </div>
+                </a>
             </div>
             <div className="max-w-xs mx-4 mb-2 rounded-lg">
-                <img className="w-full h-48"
+              <a href="https://raritysniper.com/cryptoad-punks" target={"_blank"}><img className="object-cover h-48 w-96 rounded-lg"
+                    src="/raritySniper.png"
+                    alt="" />
+                <div className="px-6 py-4">  
+                  <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">raritysniper.com</h4>
+                </div>
+              </a>
+            </div>
+            <div className="max-w-xs mx-4 mb-2 rounded-lg">
+              <a href="https://compass.art/collections/0x4f9835dbb442b263bbd20ff2731162101d9c3a89" target={"_blank"}>
+                <img className="object-cover h-48 w-96 rounded-lg"
+                    src="/compass_art.png"
+                    alt="" />
+                <div className="px-6 py-4">
+                  <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">compass.art</h4>
+                </div>
+              </a>
+            </div>
+            {/* <div className="max-w-xs mx-4 mb-2 rounded-lg">
+                <img className="object-cover h-48 w-96"
                     src="/raritySniper.png"
                     alt="" />
                 <div className="px-6 py-4">
-                    <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">This is the title</h4>
-                    <p className="leading-normal text-gray-700">Lorem ipsum dolor, sit amet cons ectetur adipis icing
-                        elit.
-                        Praesen tium, quibusdam facere quo laborum maiores sequi nam tenetur laud.</p>
+                  <a href="https://raritysniper.com/cryptoad-punks" target={"_blank"}>
+                    <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">raritysniper.com</h4>
+                  </a>
                 </div>
-            </div>
-            <div className="max-w-xs mx-4 mb-2 rounded-lg">
-                <img className="w-full h-48"
-                    src="/raritySniper.png"
-                    alt="" />
-                <div className="px-6 py-4">
-                    <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">This is the title</h4>
-                    <p className="leading-normal text-gray-700">Lorem ipsum dolor, sit amet cons ectetur adipis icing
-                        elit.
-                        Praesen tium, quibusdam facere quo laborum maiores sequi nam tenetur laud.</p>
-                </div>
-            </div>
-            <div className="max-w-xs mx-4 mb-2 rounded-lg">
-                <img className="w-full h-48"
-                    src="/raritySniper.png"
-                    alt="" />
-                <div className="px-6 py-4">
-                    <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">This is the title</h4>
-                    <p className="leading-normal text-gray-700">Lorem ipsum dolor, sit amet cons ectetur adipis icing
-                        elit.
-                        Praesen tium, quibusdam facere quo laborum maiores sequi nam tenetur laud.</p>
-                </div>
-            </div>
+            </div> */}
         </div>
       </main>
     </div>
