@@ -76,49 +76,41 @@ const Home: NextPage = () => {
         </div>
 
 
-        <h1 className="text-xl md:text-3xl font-bold text-larva-pink mb-14 md:mb-20">
-            {"Tools & Analytics"}
-        </h1>   
-        <div className="grid lg:grid-cols-3 lg:w-3/4 place-items-center">
-            <div className="max-w-xs mx-6 mb-2 rounded-lg">
-                <a href="https://dune.xyz/rantum/NFT-Collection-Dashboard?contract_address=x4f9835dbb442b263bbd20ff2731162101d9c3a89" target={"_blank"}>
-                  <img className="object-cover h-48 w-96 rounded-lg"
-                      src="/duneDashboard.png"
-                      alt="" />
-                  <div className="py-3">
-                      <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">dune.xyz</h4>
+        <div className="lg:w-3/4 bg-slate-100 p-16 rounded-lg">
+          <h1 className="text-xl md:text-3xl font-bold text-larva-pink mb-14 md:mb-12 ">
+              {"STATS & ANALYTICS"}
+          </h1>   
+          <div className="grid lg:grid-cols-3 place-items-center">
+              <div className="max-w-xs mx-6 mb-1 rounded-lg">
+                  <a href="https://dune.xyz/rantum/NFT-Collection-Dashboard?contract_address=x4f9835dbb442b263bbd20ff2731162101d9c3a89" target={"_blank"}>
+                    <img className="object-cover h-48 w-96 rounded-lg"
+                        src="/duneDashboard.png"
+                        alt="duneDashboard" />
+                    <div className="py-3">
+                        <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">dune.xyz</h4>
+                    </div>
+                  </a>
+              </div>
+              <div className="max-w-xs mx-6 mb-1 rounded-lg">
+                <a href="https://raritysniper.com/cryptoad-punks" target={"_blank"}><img className="object-cover h-48 w-96 rounded-lg"
+                      src="/raritySniper.png"
+                      alt="raritySniper" />
+                  <div className="py-3">  
+                    <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">raritysniper.com</h4>
                   </div>
                 </a>
-            </div>
-            <div className="max-w-xs mx-4 mb-2 rounded-lg">
-              <a href="https://raritysniper.com/cryptoad-punks" target={"_blank"}><img className="object-cover h-48 w-96 rounded-lg"
-                    src="/raritySniper.png"
-                    alt="" />
-                <div className="py-3">  
-                  <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">raritysniper.com</h4>
-                </div>
-              </a>
-            </div>
-            <div className="max-w-xs mx-4 mb-2 rounded-lg">
-              <a href="https://compass.art/collections/0x4f9835dbb442b263bbd20ff2731162101d9c3a89" target={"_blank"}>
-                <img className="object-cover h-48 w-96 rounded-lg"
-                    src="/compass_art.png"
-                    alt="" />
-                <div className="py-3">
-                  <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">compass.art</h4>
-                </div>
-              </a>
-            </div>
-            {/* <div className="max-w-xs mx-4 mb-2 rounded-lg">
-                <img className="object-cover h-48 w-96"
-                    src="/raritySniper.png"
-                    alt="" />
-                <div className="px-6 py-4">
-                  <a href="https://raritysniper.com/cryptoad-punks" target={"_blank"}>
-                    <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">raritysniper.com</h4>
-                  </a>
-                </div>
-            </div> */}
+              </div>
+              <div className="max-w-xs mx-6 mb-1 rounded-lg">
+                <a href="https://compass.art/collections/0x4f9835dbb442b263bbd20ff2731162101d9c3a89" target={"_blank"}>
+                  <img className="object-cover h-48 w-96 rounded-lg"
+                      src="/compass_art.png"
+                      alt="compass_art" />
+                  <div className="py-3">
+                    <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">compass.art</h4>
+                  </div>
+                </a>
+              </div>
+          </div>
         </div>
       </main>
     </div>
