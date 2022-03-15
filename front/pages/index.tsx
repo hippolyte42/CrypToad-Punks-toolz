@@ -75,9 +75,7 @@ const Home: NextPage = () => {
               >CrypToadz</a> treasury.</p>
           </div>
         </div>
-        <h1 className="text-2xl md:text-3xl mb-9">
-            Make your Toad Punk
-        </h1>
+        
         <Buildz/>
 
         <div className="lg:w-3/4 bg-gray-200 p-16 rounded-lg">
