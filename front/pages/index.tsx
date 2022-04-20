@@ -25,7 +25,7 @@ const Home: NextPage = () => {
 
         <div className='items-start w-1/2 min-w-[325px] text-left mb-20'>
           <h1 className="text-4xl md:text-6xl font-bold text-larva-pink mb-14 md:mb-20">
-            CrypToad Punks
+            Warning: CrypToad Punks could be a rug pull, the founder is now missing.
           </h1>
           
           <div className="mt-6 flex max-w-4xl flex-wrap sm:w-full text-lg">
