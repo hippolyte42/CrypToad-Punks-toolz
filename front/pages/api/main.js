@@ -4,6 +4,17 @@ if (typeof window !== "undefined") {
   var selectionWrap = document.getElementsByClassName("selectionWrap")[0];
 }
 
+function downloadToad() {
+  let downloadLink = document.createElement("a");
+  downloadLink.setAttribute("download", "ToadPunk.png");
+  let canvas = document.getElementById("canvas");
+  canvas.toBlob(function (blob) {
+    let url = URL.createObjectURL(blob);
+    downloadLink.setAttribute("href", url);
+    downloadLink.click();
+  });
+}
+
 export default async function getTraits() {
   const traitsJson = [
     "background",
@@ -28,7 +39,7 @@ export default async function getTraits() {
     var myLabel = document.createElement("LABEL");
     myLabel.setAttribute("for", mytrait[i].name);
     myLabel.className =
-      "w-40 text-sm";
+      "w-30 md:w-40 text-xs md:text-sm";
     myLabel.innerText = traitsJson[i];
     optionsWrap.appendChild(myLabel);
 
@@ -36,7 +47,7 @@ export default async function getTraits() {
     mySelector.onchange = pickTrait;
     mySelector.setAttribute("data-option", traitsJson[i]);
     mySelector.className =
-      "w-56 mt-2 text-sm rounded-lg";
+      "w-40 md:w-56 mt-2 text-sm rounded-lg";
     // mySelector.className = "mySelector";
     mySelector.setAttribute("name", mytrait[i].name);
     optionsWrap.appendChild(mySelector);
@@ -54,6 +65,12 @@ export default async function getTraits() {
       mySelector.appendChild(myoption);
     }
   }
+
+  const downloadButton = document.createElement("DIV");
+  downloadButton.className = "bg-larva-pink mt-8 max-w-md px-5 py-3 mb-4 font-semibold text-center text-white uppercase rounded-lg cursor-pointer";
+  downloadButton.onclick = downloadToad;
+  downloadButton.insertAdjacentText('beforeend', 'Download My CrypToad Punk');
+  selectionWrap.appendChild(downloadButton);
 }
 
 function pickTrait() {
@@ -99,15 +116,4 @@ async function drawToad(mysrc) {
       context.drawImage(myimg, 0, 0, canvasSize, canvasSize);
     }
   }
-}
-
-export function downloadToad() {
-  let downloadLink = document.createElement("a");
-  downloadLink.setAttribute("download", "ToadPunk.png");
-  let canvas = document.getElementById("canvas");
-  canvas.toBlob(function (blob) {
-    let url = URL.createObjectURL(blob);
-    downloadLink.setAttribute("href", url);
-    downloadLink.click();
-  });
 }
