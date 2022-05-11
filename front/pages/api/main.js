@@ -108,8 +108,7 @@ async function drawToad(mysrc) {
 
   for (var key in layersArray) {
     if (layersArray[key] !== "") {
-      let myimg = layersArray[key];
-      myimg = new Image();
+      const myimg = new Image();
       myimg.src = layersArray[key];
       myimg.className = "traitImg";
       await myimg.decode();
