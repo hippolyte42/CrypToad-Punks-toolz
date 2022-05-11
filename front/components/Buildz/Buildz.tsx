@@ -11,9 +11,9 @@ const Buildz = (): JSX.Element => {
 
   return (
     <>
-      <div className="md:flex w-screen lg:w-5/6 h-full overflow-scroll overflow-y-auto overflow-x-auto p-16 bg-gray-200 rounded-2xl mb-12">
+      <div className="md:flex w-screen h-full overflow-scroll overflow-y-auto overflow-x-auto p-16 bg-gray-200 rounded-2xl mb-12">
         
-        <div className="w-full flex flex-col md:grid grid-cols-[1fr,1fr] md:grid-cols-6 max-w-screen-lg gap-8 items-center justify-center text-center">
+        <div className="w-full m-auto flex flex-col md:grid grid-cols-[1fr,1fr] md:grid-cols-6 max-w-screen-lg gap-8 items-center justify-center text-center">
 
           <h1 className="text-2xl md:text-3xl mb-9 w-[16em] font-bold text-larva-pink">
               MAKE YOUR CRYPTOAD PUNK
@@ -21,7 +21,7 @@ const Buildz = (): JSX.Element => {
           <script type="text/javascript" src="/main.js" defer></script>
           
           <div className="canvasWrap md:col-start-1 md:col-end-4">
-            <canvas id="canvas" className="aspect-square rounded-2xl w-full min-w-[22em] max-w-md mx-auto bg-white border shadow-xl"></canvas>
+            <canvas id="canvas" className="aspect-square rounded-2xl w-full max-w-md mx-auto bg-white border shadow-xl"></canvas>
           </div>
           
           <div className="selectionWrap mx-auto md:col-start-4 md:col-end-7"></div>
