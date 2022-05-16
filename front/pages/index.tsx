@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Buildz from '../components/Buildz/Buildz'
 
 const Home: NextPage = () => {
   return (
@@ -19,7 +20,7 @@ const Home: NextPage = () => {
         <meta property='twitter:creator:id' content='1431037191279493123'/>
       </Head>
 
-      <main className="flex w-full flex-1 flex-col items-center px-20 mt-10 mb-24">
+      <main className="flex w-full flex-1 flex-col items-center mt-10 mb-24">
 
         <img className="w-1/2 min-w-[325px] mb-14 md:mb-20" src="./toad-punks.png"/>
 
@@ -74,9 +75,10 @@ const Home: NextPage = () => {
               >CrypToadz</a> treasury.</p>
           </div>
         </div>
+        
+        <Buildz/>
 
-
-        <div className="lg:w-3/4 bg-slate-100 p-16 rounded-lg">
+        <div className="lg:w-3/4 bg-gray-200 p-16 rounded-lg">
           <h1 className="text-xl md:text-3xl font-bold text-larva-pink mb-14 md:mb-12 ">
               {"STATS & ANALYTICS"}
           </h1>   
