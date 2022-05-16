@@ -11,7 +11,7 @@ const Buildz = (): JSX.Element => {
 
   return (
     <>
-      <div className="md:flex w-screen h-full overflow-scroll overflow-y-auto overflow-x-auto p-16 bg-gray-200 rounded-2xl mb-12">
+      <div className="md:flex w-full h-full overflow-scroll overflow-y-auto overflow-x-auto p-16 bg-gray-200 mb-12">
         
         <div className="w-full m-auto flex flex-col md:grid grid-cols-[1fr,1fr] md:grid-cols-6 max-w-screen-lg gap-8 items-center justify-center text-center">
 

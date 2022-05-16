@@ -20,7 +20,7 @@ const Home: NextPage = () => {
         <meta property='twitter:creator:id' content='1431037191279493123'/>
       </Head>
 
-      <main className="flex w-full flex-1 flex-col items-center px-20 mt-10 mb-24">
+      <main className="flex w-full flex-1 flex-col items-center mt-10 mb-24">
 
         <img className="w-1/2 min-w-[325px] mb-14 md:mb-20" src="./toad-punks.png"/>
 
